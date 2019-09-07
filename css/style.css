@@ -27,7 +27,7 @@ body{
                          "section section section aside"
                          "footer footer footer footer";
     grid-template-columns: 25vw 25vw 25vw 25vw;
-    grid-template-rows: 8vh 40vh 60vh 10vh;
+    grid-template-rows: 8vh 60vh 60vh 10vh;
     margin: 0;
 }
 body::-webkit-scrollbar{
@@ -58,4 +58,18 @@ nav a:hover{
 }
 nav > img{
     width: 45px;
+}
+section{
+    grid-area: section;
+}
+section div{
+    display: flex;
+    justify-content: center;
+}
+section h2{
+    margin: 0;
+    text-align: center;
+}
+section input:focus{
+    background-color: lightgray;
 }
