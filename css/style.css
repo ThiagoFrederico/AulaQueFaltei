@@ -30,6 +30,10 @@ body{
     grid-template-rows: 8vh 40vh 60vh 10vh;
     margin: 0;
 }
+body::-webkit-scrollbar{
+    width: 0;
+    background: transparent;
+}
 footer{
     grid-area: footer;
 }
