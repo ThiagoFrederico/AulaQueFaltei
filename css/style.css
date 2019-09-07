@@ -1,40 +1,11 @@
-aside{
-    grid-area: aside;
-}
 body{
     display: grid;
-    font-family: 'Permanent Marker', cursive;
-    grid-template-areas: "navbar navbar navbar navbar"
+    font-family: "Permanent Marker", cursive;
+    grid-template-areas: "navbar navbar navbar navbar" 
                          "header header header aside"
                          "section section section aside"
                          "footer footer footer footer";
-grid-template-columns: 25vw 25vw 25vw 25vw;
-grid-template-rows: 8vh 25vh 60vh 10vh;
-margin: 0;
-} 
-footer{
-    grid-area: footer;
-}
-header{
-    grid-area: header;
-}
-nav{
-    align-items: center;
-    background-color: #282a25;
-    display: flex;
-    justify-content: space-around;
-    grid-area: navbar;
-}
-nav a{
-    color: whitesmoke;
-    text-decoration: none;
-}
-nav a:hover{
-    color: #bb2127;
-}
-nav > img{
-    width: 45px;
-}
-section{
-    grid-area: section;
+    grid-template-columns: 25vw 25vw 25vw 25vw;
+    grid-template-rows: 8vh 25vh 60vh 10vh;
+    margin: 0;
 }
